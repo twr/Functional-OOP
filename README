@@ -1,0 +1,12 @@
+Exercise from London Software Craftsmanship Community meetup, Functional programming techniques in object-oriented languages (http://www.meetup.com/london-software-craftsmanship/events/38306082/).
+
+There were few rules to follow:
+1. No mutable objects (yours or libraries). All classes must have entirely immutable fields.
+2. Methods must end by returning.
+3. All other statements in a method must be assignment to new (final) variables.
+4. No conditionals or loops (with the exception of the ternary-style if).
+5. Write OO code.
+
+Tasks were:
+1. To find a Jack in a hand of cards.
+2. Find out if there is a pair (any pair) in a hand.
